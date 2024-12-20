@@ -1,0 +1,51 @@
+-- The SQL Query is used to identify descriptive Statistics of Film table.
+-- Numeric Values
+SELECT COUNT(*) AS count_rows,		
+MIN(rental_duration) AS minimum_rental_duration,		
+MAX(rental_duration) AS maximum_rental_duration,		
+AVG(rental_duration) AS average_rental_duration,		
+COUNT(rental_duration) AS count_rental_duration,		
+MIN(rental_rate) AS minimum_rental_rate,		
+MAX(rental_rate) AS maximum_rental_rate,		
+AVG(rental_rate) AS average_rental_rate,		
+COUNT(rental_rate) AS count_rental_rate,		
+MIN(length) AS minimun_length,		
+MAX(length) AS maximum_length,		
+AVG(length) AS average_length,		
+COUNT(length) AS count_length,		
+MIN(replacement_cost) AS minimum_replacement_cost,		
+MAX(replacement_cost) AS maximum_replacement_cost,		
+AVG(replacement_cost) AS average_replacement_cost,		
+COUNT(replacement_cost) AS count_replacement_cost,		
+
+-- Non-numeric values
+MODE() WITHIN GROUP (ORDER BY title) AS film_title,		
+MODE() WITHIN GROUP (ORDER BY description) AS film_description,		
+MODE() WITHIN GROUP (ORDER BY rating) AS film_rating,		
+MODE() WITHIN GROUP (ORDER BY special_features) AS film_special_features		
+FROM film;		
+
+-- The SQL Query is used to identify descriptve Statistics of Customer table
+-- Numeric Values
+SELECT			
+COUNT(*) AS number_of_customers,			
+MIN(store_id) AS minimum_store_id,			
+MAX(store_id) AS maximun_store_id,			
+AVG(store_id) AS average_store_id,			
+MIN(active) AS minimun_active,			
+MAX(active) AS maximun_active,			
+AVG(active) AS average_active,			
+MIN(customer_id) AS minimun_customer_id,			
+MAX(customer_id) AS maximun_customer_id,			
+AVG(customer_id) AS average_customer_id,			
+MIN(address_id) AS minimun_address_id,			
+MAX(address_id) AS maximun_address_id,			
+AVG(address_id) AS average_address_id,			
+MIN(create_date) AS minimun_create_date,			
+MAX(create_date) AS maximun_create_date,	
+
+-- Non-Numeric values
+MODE() WITHIN GROUP (ORDER BY first_name) AS customer_first_name,			
+MODE() WITHIN GROUP (ORDER BY last_name) AS customer_last_name,			
+MODE() WITHIN GROUP (ORDER BY email) AS customer_email			
+FROM customer;			
