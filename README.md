@@ -29,4 +29,6 @@
 #### Payments: Records of transactions and revenue details.
 
 ## Visualization for Top 10 countries are Rockbuster's customers based:
-### Tableau Public Link for Top 10 countries
+[Tableau Public Link for Top 10 countries](https://public.tableau.com/app/profile/amrit.gill/viz/Topcustomers_17289625602670/customers)
+
+[Tableau Public Link for Most Revenue](https://public.tableau.com/app/profile/amrit.gill/viz/movierevenue_17289626315420/movierevenue)
