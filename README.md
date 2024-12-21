@@ -8,7 +8,7 @@
 #### 1. What was the average rental duration for all videos?
 #### 2. Which movies contributed the most and least to revenue gain?
 #### 3. Do sales figures vary between geographical regions?
-#### 4. In which countries are Rockbuster’s customers based?
+#### 4. In which countries are Rockbuster’s customers based? 
 #### 5. Where are customers with a high lifetime value located?
 #### 6. What movie genres generate the most revenue?
 
@@ -28,3 +28,5 @@
 #### Customer Information: Data on customer demographics and rental behavior.
 #### Payments: Records of transactions and revenue details.
 
+## Visualization for Top 10 countries are Rockbuster's customers based:
+### Tableau Public Link for Top 10 countries
